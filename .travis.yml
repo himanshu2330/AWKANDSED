@@ -1,3 +1,4 @@
+---
 language: generic
 sudo: required
 
@@ -5,5 +6,5 @@ sudo: required
 
 jobs:
   include:
-      script: chmod +x test.sh
+      script: chmod +x ./test.sh
       sh test.sh
