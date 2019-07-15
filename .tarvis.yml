@@ -1,0 +1,9 @@
+language: generic
+sudo: required
+
+ 
+
+jobs:
+  include:
+      script: chmod +x test.sh
+      sh test.sh
